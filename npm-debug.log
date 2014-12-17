@@ -1,0 +1,88 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/node/bin/node',
+1 verbose cli   '/usr/local/node/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'aws-stk',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'aws-stk', null ]
+6 verbose cache add name=undefined spec="aws-stk" args=["aws-stk",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'aws-stk',
+7 verbose parsed url   path: 'aws-stk',
+7 verbose parsed url   href: 'aws-stk' }
+8 silly lockFile 91bf9eb9-aws-stk aws-stk
+9 verbose lock aws-stk /Users/nss/.npm/91bf9eb9-aws-stk.lock
+10 silly lockFile 91bf9eb9-aws-stk aws-stk
+11 silly lockFile 91bf9eb9-aws-stk aws-stk
+12 verbose addNamed [ 'aws-stk', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile e03cffd8-aws-stk aws-stk@
+15 verbose lock aws-stk@ /Users/nss/.npm/e03cffd8-aws-stk.lock
+16 silly addNameRange { name: 'aws-stk', range: '*', hasData: false }
+17 verbose request where is /aws-stk
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id d461370d626690c8
+20 verbose url raw /aws-stk
+21 verbose url resolving [ 'https://registry.npmjs.org/', './aws-stk' ]
+22 verbose url resolved https://registry.npmjs.org/aws-stk
+23 verbose request where is https://registry.npmjs.org/aws-stk
+24 info trying registry request attempt 1 at 16:07:16
+25 http GET https://registry.npmjs.org/aws-stk
+26 http 404 https://registry.npmjs.org/aws-stk
+27 verbose headers { date: 'Fri, 12 Dec 2014 22:07:16 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-iad2147-IAD',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1418422036.219531,VS0,VE12',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Fri, 12 Dec 2014 22:07:16 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-iad2147-IAD',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1418422036.219531,VS0,VE12',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile e03cffd8-aws-stk aws-stk@
+30 silly lockFile e03cffd8-aws-stk aws-stk@
+31 error 404 404 Not Found: aws-stk
+31 error 404
+31 error 404 'aws-stk' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'visapast'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Darwin 14.0.0
+33 error command "/usr/local/node/bin/node" "/usr/local/node/bin/npm" "install" "aws-stk" "--save"
+34 error cwd /Users/nss/Documents/code/visaport2
+35 error node -v v0.10.32
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]

@@ -5,10 +5,13 @@ h3 Register
     form(role='form', novalidate, name='userForm')
       .form-group
         label(for='email') Email
-        input.form-control#email(type='email', name='email', ng-model='user.email', autofocus, required)
+        input.form-control#email(type='email', name='email', ng-model='user.username', autofocus, required)
       .form-group
         label(for='password') Password
         input.form-control#password(type='password', name='password', ng-model='user.password', required, ng-minlength='3')
+      .form-group
+        label(for='avatar') Avatar
+        input.form-control#avatar(type='text', name='avatar', ng-model='user.avatar', required)
       button.btn.btn-primary(ng-show='userForm.$valid', ng-click='register()') Register
   .col-xs-9
 

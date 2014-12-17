@@ -1,5 +1,5 @@
 node_modules/
 public/
 client/assets/passjson
-
+hapi-server/DB/json
 
